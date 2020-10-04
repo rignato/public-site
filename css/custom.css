@@ -1,0 +1,23 @@
+.blinking {
+    color: inherit;
+    -webkit-animation: blinking 1s infinite;
+    animation: blinking 1s infinite;
+}
+
+/* .navigation-title {
+    text-decoration: none !important;
+    text-transform: lowercase !important;
+    font-family: monospace !important;
+} */
+
+@keyframes blinking {
+    0% {
+        color: transparent;
+    }
+    49% {
+        color: transparent;
+    }
+    50% {
+        color: inherit;
+    }
+}
